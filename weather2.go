@@ -16,7 +16,7 @@ func main() {
 	}
 
 	req.Header.Add("X-RapidAPI-Host", "community-open-weather-map.p.rapidapi.com")
-	req.Header.Add("X-RapidAPI-Key", "8de7627f00mshc47896c44e0ebd9p1c4a30jsn96eaf45da458")
+	req.Header.Add("X-RapidAPI-Key", "")
 
 	client := http.Client{}
 	res, err := client.Do(req)
